@@ -86,6 +86,106 @@ form .Contraseña{
     margin: 30px 0;
 }
 
+.Correo input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.Correo label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+form .Correo{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.RepetirCorreo input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.RepetirCorreo label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+form .RepetirCorreo{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.contraseñaR input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.contraseñaR label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+form .contraseñaR{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.re-contraseña input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.re-contraseña label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+form .re-contraseña{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
  /*estas dos funciones son para que se mueva el texto cuando lo selecciones*/
 .username::before{
     content: '';
@@ -130,6 +230,95 @@ color: #76448a;
  .Contraseñainput:focus ~ span::before{
     width: 100%;
  }
+
+ .Correo::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #76448a;
+    transition: .5s;
+}
+
+.Correo input:focus ~ label,
+.Correo input:focus ~ label{
+top: -5px;
+color: #76448a;
+}
+
+ .Correoinput:focus ~ span::before,
+ .Correoinput:focus ~ span::before{
+    width: 100%;
+ }
+
+ .RepetirCorreo::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #76448a;
+    transition: .5s;
+}
+
+.RepetirCorreo input:focus ~ label,
+.RepetirCorreo input:focus ~ label{
+top: -5px;
+color: #76448a;
+}
+
+ .RepetirCorreoinput:focus ~ span::before,
+ .RepetirCorreoinput:focus ~ span::before{
+    width: 100%;
+ }
+
+ .contraseñaR::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #76448a;
+    transition: .5s;
+}
+
+.contraseñaR input:focus ~ label,
+.contraseñaR input:focus ~ label{
+top: -5px;
+color: #76448a;
+}
+
+ .contraseñaRinput:focus ~ span::before,
+ .contraseñaRinput:focus ~ span::before{
+    width: 100%;
+ }
+
+ .re-contraseña::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #76448a;
+    transition: .5s;
+}
+
+.re-contraseña input:focus ~ label,
+.re-contraseña input:focus ~ label{
+top: -5px;
+color: #76448a;
+}
+
+ .re-contraseñainput:focus ~ span::before,
+ .re-contraseñainput:focus ~ span::before{
+    width: 100%;
+ }
+
 
  /*el boton de iniciar*/
  input[type="submit"]{
