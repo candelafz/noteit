@@ -1,39 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NoteIt</title>
-    <link rel="stylesheet" href="css/stylesmain.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NoteIt</title>
+  <link rel="stylesheet" href="css/stylesmain.css">
 </head>
+
+
 <body>
-    <div class="popup-box">
-        <div class="popup">
-          <div class="content">
-            <header>
-              <p></p>
-              <i class="uil uil-times"></i>
-            </header>
-            <form action="#">
-              <div class="row title">
-                <label>Title</label>
-                <input type="text" spellcheck="false">
-              </div>
-              <div class="row description">
-                <label>Description</label>
-                <textarea spellcheck="false"></textarea>
-              </div>
-              <button></button>
-            </form>
-          </div>
-        </div>
+  <div class="wrapper">
+    <div class="add-box">  <!-- agregar nota, no anda solo decoracion-->
+      <div class="icon"><i class="uil uil-plus"></i></div>
+      <p>Agregar nueva nota</p>
+    </div>
+
+    <!--nota 1-->
+    <div class="note-box">  <!-- la nota en si es esta -->
+        <h3 class="note-title" contenteditable="true">Título de nota</h3>  <!-- las dos funciones contenteditable hace que se pueda editar en la pagina-->
+        <p class="note-content" contenteditable="true">kkkkkkkkkkkkkkkkkkkkkkkkkkkk
+        </p>
       </div>
-      <div class="wrapper">
-        <li class="add-box">
-          <div class="icon"><i class="uil uil-plus"></i></div>
-          <p>Agregar nueva nota</p>
-        </li>
+
+    <!--nota 2-->
+    <div class="note-box">
+        <h3 class="note-title" contenteditable="true">Título de nota</h3>
+        <p class="note-content" contenteditable="true">
+          eliot puto
+        </p>
       </div>
-    
+
+    <!--nota 3-->
+    <div class="note-box">
+        <h3 class="note-title" contenteditable="true">Título de nota</h3>
+        <p class="note-content" contenteditable="true">
+          miau
+        </p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
